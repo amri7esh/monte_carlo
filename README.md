@@ -12,7 +12,7 @@ This repository contains a collection of Monte Carlo simulation techniques appli
 ### Problem 1: Simulating Financial Returns
 - **Description**: This script simulates financial returns using different probability distributions, namely the Cauchy and logistic distributions. It demonstrates the process of parameterization, simulation, and graphical analysis of financial returns.
 - **Methodology**: The simulation involves generating returns, adjusting parameters to fit certain statistical properties, and analyzing the behavior of these returns over time.
-- **Usage**: Execute `GenerateReturns.m` in MATLAB. The script includes parameter setting, generating returns, and plotting the cumulative and averaged returns.
+- **Usage**: Execute `modeling_financial_returns.m` in MATLAB. The script includes parameter setting, generating returns, and plotting the cumulative and averaged returns.
 
 ## Cauchy Distribution Order Statistics
 ### Problem 2: Estimating Order Statistics
@@ -21,12 +21,12 @@ This section presents two Monte Carlo methods for estimating order statistics fr
 #### Uniform to Cauchy Sampling
 - **Description**: Generates samples from a uniform distribution, transforms them to a Cauchy distribution, and then sorts them to find specific order statistics.
 - **Methodology**: Involves direct application of distribution transformations and sorting.
-- **Usage**: Run `UniformToCauchy.m` in MATLAB.
 
 #### Beta Distribution Sampling
 - **Description**: Uses the Beta distribution to directly sample specific order statistics for a Cauchy distribution.
 - **Methodology**: Leverages the statistical properties of the Beta distribution.
-- **Usage**: Execute `BetaDistributionSampling.m` in MATLAB for a comparison with the traditional method.
+
+**Usage**: Execute `CauchyOrderStatsSamplingComparison.m` in MATLAB for a comparison with the traditional method.
 
 ## General Instructions
 - Clone the repository and navigate to the specific project folder. Each folder contains MATLAB scripts with descriptive comments.
